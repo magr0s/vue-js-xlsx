@@ -1,14 +1,24 @@
 {
   "name": "vue-js-xslx",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
+  "main": "dist/vue-js-xlsx.common.js",
+  "files": [
+    "dist/*",
+    "*.md"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build:lib": "vue-cli-service build --target lib --name vue-js-xslx src/components/index.js",
+    "lint": "vue-cli-service lint",
+    "prepublish": "npm run lint && npm run compile",
+    "compile": "npm run build:lib",
+    "publish": "npm publish",
+    "deploy": "git push"
   },
   "dependencies": {
-    "vue": "^2.6.6"
+    "vue": "^2.6.6",
+    "xlsx": "^0.14.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
@@ -19,5 +29,16 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.5.21"
-  }
+  },
+  "author": "magr0s <magr0s.ak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magr0s/vue-js-xslx/issues"
+  },
+  "homepage": "https://github.com/magr0s/vue-js-xslx#readme",
+  "keywords": [
+    "js-xslx",
+    "xlsx",
+    "vue"
+  ]
 }
