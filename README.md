@@ -1,7 +1,7 @@
 # Vue js-xlsx ![Current version](https://img.shields.io/badge/dynamic/json.svg?label=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmagr0s%2Fvue-js-xlsx%2Fmaster%2Fpackage.json&query=version&colorB=orange&style=flat-square) 
 
 ![Vue.js version](https://img.shields.io/badge/dynamic/json.svg?label=vue.js&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmagr0s%2Fvue-js-xlsx%2Fmaster%2Fpackage.json&query=dependencies.vue&colorB=blue&style=flat-square)
-![xlsx version](https://img.shields.io/badge/dynamic/json.svg?label=xlsx&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmagr0s%2Fvue-js-xslx%2Fmaster%2Fpackage.json&query=dependencies.xlsx&colorB=blue&style=flat-square)
+![xlsx version](https://img.shields.io/badge/dynamic/json.svg?label=xlsx&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmagr0s%2Fvue-js-xlsx%2Fmaster%2Fpackage.json&query=dependencies.xlsx&colorB=blue&style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg?&style=flat-square)
 
 Vue.js plugin for [SheetJs js-xlsx](http://sheetjs.com/)
@@ -57,6 +57,9 @@ See [SheetJs](https://github.com/sheetjs/js-xlsx)
  */
 const jsonData = this.$xlsx.toJson(data, options)
 ```
+
+## Bonus
+[Vue FileReader component](https://github.com/magr0s/vue-filereader)
 
 ## Development
 

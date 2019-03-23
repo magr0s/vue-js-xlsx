@@ -1,5 +1,6 @@
 {
   "name": "vue-js-xslx",
+  "description": "SheetJs js-xlsx plugin for Vue.js",
   "version": "0.0.1",
   "private": false,
   "main": "dist/vue-js-xlsx.common.js",
