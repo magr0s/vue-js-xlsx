@@ -1,7 +1,7 @@
 {
-  "name": "vue-js-xslx",
+  "name": "vue-js-xlsx",
   "description": "SheetJs js-xlsx plugin for Vue.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "main": "dist/vue-js-xlsx.common.js",
   "files": [
@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build:lib": "vue-cli-service build --target lib --name vue-js-xslx src/components/index.js",
+    "build:lib": "vue-cli-service build --target lib --name vue-js-xlsx src/components/index.js",
     "lint": "vue-cli-service lint",
     "prepublish": "npm run lint && npm run compile",
     "compile": "npm run build:lib",
@@ -34,9 +34,9 @@
   "author": "magr0s <magr0s.ak@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/magr0s/vue-js-xslx/issues"
+    "url": "https://github.com/magr0s/vue-js-xlsx/issues"
   },
-  "homepage": "https://github.com/magr0s/vue-js-xslx#readme",
+  "homepage": "https://github.com/magr0s/vue-js-xlsx#readme",
   "keywords": [
     "js-xslx",
     "xlsx",
